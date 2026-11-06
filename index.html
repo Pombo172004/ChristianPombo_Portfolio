@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The personal portfolio of Christian Dave E. Pombo, a fullstack developer." />
+  <title>Christian Dave Pombo — Fullstack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Christian Dave E. Pombo home">
+        <span class="brand-mark"><img src="images/profile-photo.png" alt="" /></span>
+        <span>Christian Dave E. Pombo</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="button button-small header-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        <button class="icon-button menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span aria-hidden="true">☰</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Aspiring Fullstack developer</p>
+          <h1>Designing <em>digital</em><br />experiences that<br /><span class="hero-accent">feel like magic.</span></h1>
+          <p class="hero-description">I'm Christian Dave E. Pombo, a fullstack developer focused on making complex things feel simple, useful, and a little more delightful.</p>
+          <div class="hero-actions">
+            <a class="button" href="#work">View Projects</a>
+            <a class="button button-outline" href="#contact">Get in Touch</a>
+            <a class="button button-outline" href="cv-viewer.html" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-glow"></div>
+          <img class="hero-photo" src="images/profile-photo.png" alt="Christian Dave E. Pombo" />
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Introduction">
+        <span>CHRISTIAN DAVE E. POMBO</span>
+        <p>Creative developer crafting thoughtful digital experiences with design and code.</p>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / Selected work</p>
+            <h2>A few things I've<br /><em>made recently.</em></h2>
+          </div>
+          <p class="section-note">Five practical systems<br />designed for everyday use.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card aews-project">
+            <div class="project-visual aews-visual" aria-label="AEWS academic early warning system screenshots">
+              <span class="visual-caption">01 — Capstone project</span>
+              <div class="aews-slideshow">
+                <img class="aews-slide active" src="images/aews-1.png" alt="AEWS academic early warning system sign-in screen" />
+                <img class="aews-slide" src="images/aews-2.png" alt="AEWS instructor teaching workspace class roster" />
+                <img class="aews-slide" src="images/aews-3.png" alt="AEWS support workspace student monitoring dashboard" />
+                <img class="aews-slide" src="images/aews-4.png" alt="AEWS system administrator overview dashboard" />
+              </div>
+              <div class="aews-dots" aria-label="Slideshow progress">
+                <span class="aews-dot active"></span><span class="aews-dot"></span><span class="aews-dot"></span><span class="aews-dot"></span>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>AEWS</h3><p>An Academic Early Warning System capstone project that identifies students at risk of failing and helps educators provide timely academic support.</p></div><a class="round-arrow" href="#contact" aria-label="Learn more about AEWS">↗</a></div>
+          </article>
+          <article class="project-card acadclear-project">
+            <div class="project-visual acadclear-visual" aria-label="AcadClear academic clearance system screenshots">
+              <span class="visual-caption">02 — SaaS platform</span>
+              <div class="acadclear-slideshow">
+                <img class="acadclear-slide active" src="images/acadclear-1.png" alt="AcadClear academic clearance system login screen" />
+                <img class="acadclear-slide" src="images/acadclear-2.png" alt="AcadClear super administrator dashboard" />
+                <img class="acadclear-slide" src="images/acadclear-3.png" alt="AcadClear university administrator dashboard" />
+                <img class="acadclear-slide" src="images/acadclear-4.png" alt="AcadClear colleges management screen" />
+              </div>
+              <div class="acadclear-dots" aria-label="Slideshow progress">
+                <span class="acadclear-dot active"></span><span class="acadclear-dot"></span><span class="acadclear-dot"></span><span class="acadclear-dot"></span>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>AcadClear</h3><p>A multitenant SaaS platform that streamlines academic clearances, university administration, and student records.</p></div><a class="round-arrow" href="#contact" aria-label="Learn more about AcadClear">↗</a></div>
+          </article>
+          <article class="project-card rens-ice-cream-project">
+            <div class="project-visual rens-ice-cream-visual" aria-label="Ren's Ice Cream ordering, delivery, and sales management system screenshots">
+              <span class="visual-caption">03 — Business management system</span>
+              <div class="rens-ice-cream-slideshow">
+                <img class="rens-ice-cream-slide active" src="images/rens-ice-cream-1.png" alt="Ren's Ice Cream sales management dashboard" />
+                <img class="rens-ice-cream-slide" src="images/rens-ice-cream-2.png" alt="Ren's Ice Cream product catalog and shopping screen" />
+                <img class="rens-ice-cream-slide" src="images/rens-ice-cream-3.png" alt="Ren's Ice Cream delivery and pickup booking screen" />
+                <img class="rens-ice-cream-slide" src="images/rens-ice-cream-4.png" alt="Ren's Ice Cream order summary screen" />
+              </div>
+              <div class="rens-ice-cream-dots" aria-label="Slideshow progress">
+                <span class="rens-ice-cream-dot active"></span><span class="rens-ice-cream-dot"></span><span class="rens-ice-cream-dot"></span><span class="rens-ice-cream-dot"></span>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>Ren's Ice Cream</h3><p>An ordering, delivery, and sales management system that helps customers place orders while supporting product, booking, and sales tracking.</p></div><a class="round-arrow" href="#contact" aria-label="Learn more about Ren's Ice Cream system">↗</a></div>
+          </article>
+          <article class="project-card clausys-project">
+            <div class="project-visual clausys-visual" aria-label="ClauSys classroom utilization system screenshots">
+              <span class="visual-caption">04 — Classroom Utilization System</span>
+              <div class="clausys-slideshow">
+                <img class="clausys-slide active" src="images/clausys-1.png" alt="ClauSys welcome screen" />
+                <img class="clausys-slide" src="images/clausys-2.png" alt="ClauSys user login screen" />
+                <img class="clausys-slide" src="images/clausys-3.png" alt="ClauSys class schedule calendar" />
+              </div>
+              <div class="clausys-dots" aria-label="Slideshow progress">
+                <span class="clausys-dot active"></span><span class="clausys-dot"></span><span class="clausys-dot"></span>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>ClauSys</h3><p>A classroom utilization system that helps schools manage schedules, room assignments, and class resources efficiently.</p></div><a class="round-arrow" href="#contact" aria-label="Learn more about ClauSys">↗</a></div>
+          </article>
+          <article class="project-card busbook-project">
+            <div class="project-visual busbook-visual" aria-label="BusBook app screenshots">
+              <span class="visual-caption">05 — Mobile application</span>
+              <div class="busbook-slideshow">
+                <img class="busbook-slide active" src="images/busbook-1.png" alt="BusBook passenger onboarding screen" />
+                <img class="busbook-slide" src="images/busbook-2.png" alt="BusBook conductor operations screen" />
+                <img class="busbook-slide" src="images/busbook-3.png" alt="BusBook passenger login screen" />
+                <img class="busbook-slide" src="images/busbook-4.png" alt="BusBook home screen for searching bus trips" />
+              </div>
+              <div class="busbook-dots" aria-label="Slideshow progress">
+                <span class="busbook-dot active"></span><span class="busbook-dot"></span><span class="busbook-dot"></span><span class="busbook-dot"></span>
+              </div>
+            </div>
+            <div class="project-info"><div><h3>BusBook</h3><p>A convenient bus booking system for passengers and conductors.</p></div><a class="round-arrow" href="#contact" aria-label="Learn more about BusBook">↗</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section section" id="about">
+        <div class="about-portrait">
+          <img src="images/profile-photo.png" alt="Portrait of Christian Dave E. Pombo" />
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">01 / A little about me</p>
+          <h2>Curious by nature.<br /><em>Intentional by design.</em></h2>
+          <p>I am a fourth-year Bachelor of Science in Information Technology student at Bukidnon State University, passionate about technology, innovation, and problem-solving. I have experience in web and mobile development, database management, networking, and system design.</p>
+          <p>I enjoy learning new technologies, building creative solutions, and continuously improving my skills. My goal is to become a skilled IT professional and use technology to make a positive impact.</p>
+          <a class="text-link" href="#contact">Let's make something meaningful <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="skills-section section" id="skills">
+        <p class="eyebrow">02 / Skills</p>
+        <h2>Skills that turn<br /><em>ideas into reality.</em></h2>
+        <div class="skill-cards">
+          <article class="skill-card">
+            <p class="skill-number">01 / Technical skills</p>
+            <h3>Building for the web<br />and beyond.</h3>
+            <p>The languages, frameworks, and development practices I use to shape digital products.</p>
+            <div class="skill-group"><strong>Web Development</strong><ul><li>Responsive Web Development</li><li>UI/UX Design</li><li>Mobile Application Development</li></ul></div>
+            <div class="skill-group"><strong>Frameworks, Languages & Database</strong><ul><li>HTML & CSS</li><li>Laravel</li><li>JavaScript</li><li>React & Node.js</li><li>MongoDB, Firebase & XAMPP</li></ul></div>
+          </article>
+          <article class="skill-card">
+            <p class="skill-number">02 / Practical skills</p>
+            <h3>Keeping technology<br />useful.</h3>
+            <p>Hands-on technical skills for setting up, maintaining, and supporting dependable systems.</p>
+            <div class="skill-group skill-group-single"><ul><li>Operating System Installation</li><li>Basic Networking</li><li>Computer Cleaning & Maintenance</li><li>Computer Setup & Configuration</li><li>Basic Computer Troubleshooting</li></ul></div>
+          </article>
+          <article class="skill-card">
+            <p class="skill-number">03 / Soft skills</p>
+            <h3>A thoughtful way to<br />work.</h3>
+            <p>The habits that help me collaborate clearly, take ownership, and grow with every project.</p>
+            <div class="skill-group skill-group-single"><ul><li>Teamwork</li><li>Initiative</li><li>Willingness to Learn</li></ul></div>
+          </article>
+        </div>
+        <div class="tools-strip">
+          <p>Tools I use to build and design modern digital experiences.</p>
+          <div class="tool-list">
+            <span><b class="tool-icon vscode">⌁</b>VS Code</span><span><b class="tool-icon figma">◆</b>Figma</span><span><b class="tool-icon github">●</b>GitHub</span><span><b class="tool-icon canva">C</b>Canva</span><span><b class="tool-icon html">5</b>HTML</span><span><b class="tool-icon css">≋</b>CSS</span><span><b class="tool-icon js">JS</b>JavaScript</span><span><b class="tool-icon mongo">◆</b>MongoDB</span><span><b class="tool-icon express">Ex</b>Express</span><span><b class="tool-icon react">✧</b>React</span><span><b class="tool-icon node">⬡</b>Node.js</span><span><b class="tool-icon xampp">X</b>XAMPP</span><span><b class="tool-icon expo">▲</b>Expo Go</span><span><b class="tool-icon firebase">●</b>Firebase</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificates-section section" id="certificates">
+        <p class="eyebrow">04 / Certificates</p>
+        <h2>Always learning.<br /><em>Always improving.</em></h2>
+        <div class="certificate-grid">
+          <article class="certificate-card">
+            <button class="certificate-image-wrap certificate-image-button" type="button" data-certificate="images/certificate-topcit.png" aria-label="View TOPCIT certificate full size">
+              <img src="images/certificate-topcit.png" alt="TOPCIT certificate awarded to Christian Dave Pombo with Level 4 and a score of 700" draggable="false" />
+            </button>
+            <div class="certificate-details">
+              <p class="certificate-number">04 / ICT competency certification</p>
+              <h3>TOPCIT Level 4</h3>
+              <p>Achieved TOPCIT Level 4 with a score of 700, demonstrating practical competency in software development, data management, system architecture, information security, and IT business.</p>
+              <span class="certificate-meta">Issued November 6, 2026</span>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <button class="certificate-image-wrap certificate-image-button" type="button" data-certificate="images/certificate-ccna.png" aria-label="View CCNA certificate full size">
+              <img src="images/certificate-ccna.png" alt="Cisco Networking Academy certificate awarded to Christian Dave Pombo for completing CCNA: Switching, Routing, and Wireless Essentials" draggable="false" />
+            </button>
+            <div class="certificate-details">
+              <p class="certificate-number">02 / Networking certification</p>
+              <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+              <p>Successfully completed through the Cisco Networking Academy program at Bukidnon State University. This certification reflects foundational skills in switching, routing, and wireless networking.</p>
+              <span class="certificate-meta">Completed January 6, 2026</span>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <button class="certificate-image-wrap certificate-image-button" type="button" data-certificate="images/certificate-ccna-course.png" aria-label="View CCNA course certificate full size">
+              <img src="images/certificate-ccna-course.png" alt="Cisco Networking Academy certificate of course completion awarded to Christian Dave Pombo for CCNA: Switching, Routing, and Wireless Essentials" draggable="false" />
+            </button>
+            <div class="certificate-details">
+              <p class="certificate-number">03 / Course completion</p>
+              <h3>CCNA Course Completion</h3>
+              <p>Completed the CCNA course and demonstrated practical knowledge of VLANs, routing, redundancy, wireless security, and IPv4 and IPv6 networking.</p>
+              <span class="certificate-meta">Issued January 6, 2026</span>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <button class="certificate-image-wrap certificate-image-button" type="button" data-certificate="images/certificate-ai-literacy.png" aria-label="View AI literacy certificate full size">
+              <img src="images/certificate-ai-literacy.png" alt="Certificate of completion awarded to Christian Dave Pombo for Introduction to AI Literacy and Responsible Use" draggable="false" />
+            </button>
+            <div class="certificate-details">
+              <p class="certificate-number">04 / AI literacy</p>
+              <h3>Introduction to AI Literacy and Responsible Use</h3>
+              <p>Completed a micro-credentials course focused on understanding artificial intelligence and using AI thoughtfully, safely, and responsibly.</p>
+              <span class="certificate-meta">Issued September 14, 2026</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact">
+        <div><p class="eyebrow">05 / Have a project in mind?</p><h2>Let's create<br /><em>something good.</em></h2></div>
+        <div class="contact-detail"><p>I'm always open to hearing about new ideas, collaborations, and opportunities.</p><div class="email-link" aria-label="Email address"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3V5Zm1.5 2 7.5 5.2L19.5 7M4 17l5.2-5.2m10.8 5.2-5.2-5.2"/></svg><span>pombochristiandave@gmail.com</span></div><div class="social-links" aria-label="Social media profiles">
+          <a class="social-link facebook-link" href="https://www.facebook.com/profile.php?id=61577867234742" target="_blank" rel="noreferrer" aria-label="Facebook profile"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3.3 0-5 1.9-5 5v3H6v4h3v8h4v-8h3.5l.5-4H13V9c0-.7.3-1 1-1Z"/></svg></span><span>Facebook</span></a>
+          <a class="social-link instagram-link" href="https://www.instagram.com/theylovechrist17/" target="_blank" rel="noreferrer" aria-label="Instagram profile"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="social-dot" cx="17.5" cy="6.5" r="1"/></svg></span><span>@theylovechrist17</span></a>
+          <a class="social-link tiktok-link" href="https://www.tiktok.com/@kuys_devoney" target="_blank" rel="noreferrer" aria-label="TikTok profile"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h3c.3 1.8 1.3 3 3 3v3c-1.1 0-2.1-.3-3-.8V15a6 6 0 1 1-6-6v3a3 3 0 1 0 3 3V3Z"/></svg></span><span>@kuys_devoney</span></a>
+          <a class="social-link linkedin-link" href="https://www.linkedin.com/in/christian-dave-pombo-a514b0408/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8H3V21H6V8ZM4.5 3A1.8 1.8 0 1 0 4.5 6.6 1.8 1.8 0 0 0 4.5 3ZM21 13.5c0-3.9-2.1-5.7-4.9-5.7-2.3 0-3.3 1.3-3.9 2.2V8H9V21h3.2v-6.4c0-1.7.3-3.4 2.5-3.4s2.2 2 2.2 3.5V21H21v-7.5Z"/></svg></span><span>LinkedIn</span></a>
+          <a class="social-link phone-link" href="tel:+639755658139" aria-label="Call +63 975 565 8139"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5 9.4 3l2 4.7-2.1 1.7a15.4 15.4 0 0 0 5.3 5.3l1.7-2.1 4.7 2-2.8 5.4c-.8.4-1.8.4-2.6 0A18.2 18.2 0 0 1 3.3 7.6c-.4-.8-.4-1.8 0-2.6l3.3-1.5Z"/></svg></span><span>+63 975 565 8139</span></a>
+        </div></div>
+      </section>
+    </main>
+
+    <div class="certificate-lightbox" hidden role="dialog" aria-modal="true" aria-label="Certificate preview">
+      <button class="certificate-lightbox-close" type="button" aria-label="Close certificate preview">×</button>
+      <img class="certificate-lightbox-image" src="" alt="" draggable="false" />
+    </div>
+    <footer class="site-footer"><span>© 2026 Christian Dave E. Pombo</span><span>Made with intention <span class="footer-heart">♥</span></span><a href="#home">Back to top ↑</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

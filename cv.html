@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian Dave E. Pombo - CV</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    :root { --ink: #172326; --muted: #587074; --accent: #0c9d8b; --line: #cfe0df; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #e8efee; font-family: Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; }
+    .page { width: 210mm; min-height: 297mm; margin: 20px auto; padding: 18mm 18mm 14mm; background: #fff; }
+    header { display: flex; justify-content: space-between; gap: 20px; padding-bottom: 16px; border-bottom: 3px solid var(--accent); }
+    h1 { margin: 0 0 4px; font-size: 28pt; letter-spacing: -.05em; }
+    .role { margin: 0; color: var(--accent); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .contact { color: var(--muted); font-size: 9pt; line-height: 1.7; text-align: right; }
+    h2 { margin: 18px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); color: var(--accent); font-size: 12pt; letter-spacing: .12em; text-transform: uppercase; }
+    p { margin: 0 0 7px; }
+    .summary { margin-top: 16px; }
+    .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .item { margin-bottom: 11px; }
+    .item strong { display: block; font-size: 11pt; }
+    .item span { color: var(--muted); font-size: 9pt; }
+    ul { margin: 5px 0 0; padding-left: 18px; }
+    li { margin-bottom: 3px; }
+    .tags { color: var(--muted); }
+    .tags strong { color: var(--ink); }
+    @media print { body { background: #fff; } .page { margin: 0; } }
+    @media screen and (max-width: 760px) { .page { width: auto; min-height: 0; margin: 0; padding: 28px 20px; } header, .columns { display: block; } .contact { margin-top: 12px; text-align: left; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <h1>Christian Dave E. Pombo</h1>
+        <p class="role">Aspiring Fullstack Developer</p>
+      </div>
+      <div class="contact">
+        pombochristiandave@gmail.com<br />
+        +63 975 565 8139<br />
+        linkedin.com/in/christian-dave-pombo-a514b0408
+      </div>
+    </header>
+
+    <section class="summary">
+      <h2>Profile</h2>
+      <p>Fourth-year Bachelor of Science in Information Technology student at Bukidnon State University with experience in web and mobile development, database management, networking, and system design. Passionate about building practical, accessible, and useful digital solutions.</p>
+    </section>
+
+    <div class="columns">
+      <div>
+        <section>
+          <h2>Technical Skills</h2>
+          <p class="tags"><strong>Development:</strong> HTML, CSS, JavaScript, Laravel, React, Node.js</p>
+          <p class="tags"><strong>Mobile:</strong> Mobile application development, Expo Go</p>
+          <p class="tags"><strong>Databases:</strong> MongoDB, Firebase, XAMPP</p>
+          <p class="tags"><strong>Other:</strong> Responsive web development, UI/UX design, basic networking, computer setup and troubleshooting</p>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <div class="item"><strong>Bachelor of Science in Information Technology</strong><span>Bukidnon State University · Fourth-year student</span></div>
+        </section>
+        <section>
+          <h2>Certificates</h2>
+          <div class="item"><strong>TOPCIT Level 4</strong><span>Score: 700</span></div>
+          <div class="item"><strong>CCNA: Switching, Routing, and Wireless Essentials</strong></div>
+          <div class="item"><strong>CCNA Course Completion</strong></div>
+          <div class="item"><strong>Introduction to AI Literacy and Responsible Use</strong></div>
+        </section>
+      </div>
+      <div>
+        <section>
+          <h2>Selected Projects</h2>
+          <div class="item"><strong>AEWS</strong><span>Capstone project</span><br />Academic Early Warning System for identifying students at risk of failing and supporting timely intervention.</div>
+          <div class="item"><strong>AcadClear</strong><span>SaaS application</span><br />Multitenant academic clearance platform for administration and student records.</div>
+          <div class="item"><strong>Ren's Ice Cream</strong><br />Ordering, delivery, and sales management system with product and booking tracking.</div>
+          <div class="item"><strong>ClauSys</strong><span>School management system</span><br />Classroom utilization system for schedules, room assignments, and class resources.</div>
+          <div class="item"><strong>BusBook</strong><span>Mobile application</span><br />Bus booking system for passengers and conductors.</div>
+        </section>
+        <section>
+          <h2>Strengths</h2>
+          <p>Teamwork · Initiative · Willingness to learn · Problem-solving · Creativity</p>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
